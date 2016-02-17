@@ -46,18 +46,20 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4LT-Jf-Huq">
                                 <rect key="frame" x="270" y="118" width="38" height="30"/>
                                 <state key="normal" title="Show"/>
+                                <connections>
+                                    <segue destination="sKN-qx-HOS" kind="show" id="dan-l7-oxr"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aqo-oz-mhM">
                                 <rect key="frame" x="234" y="441" width="111" height="30"/>
                                 <state key="normal" title="Present Modally"/>
+                                <connections>
+                                    <segue destination="k3C-St-McF" kind="presentation" id="Wjk-7a-2wd"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <connections>
-                        <segue destination="sKN-qx-HOS" kind="show" id="4Fy-iN-DWw"/>
-                        <segue destination="k3C-St-McF" kind="presentation" id="Bu1-y1-i2h"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
